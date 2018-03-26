@@ -13,6 +13,7 @@ $(function() {
     return deck;
   }
 
+
   function printDeck(array) {
     array.forEach(function(card) {
       $("#deck").append("<li>" + card + "</li>");
